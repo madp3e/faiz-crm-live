@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'x1q)oijg9=57fii@vw8@x=qt#3m+0z8nbxrmday%2g6hx#*w$i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["faiz-crm.herokuapp.com", "127.0.0.1"]
 
