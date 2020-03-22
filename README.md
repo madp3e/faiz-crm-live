@@ -1,7 +1,13 @@
 # faiz-crm-live
-This is my practice project, where I apply django, Postgresql, AWS(S3, RDS), and heroku all in one 
-production.
+A practice of creating a management app using Django
 
+Language : Pyhton/Django
+Database : Postgresql
+storages : AWS(RDS, S3 Bucket)
+server : Heroku
+
+side tools = Git, GitHub
 
 deployed projects = 
+
 https://faiz-crm.herokuapp.com/
