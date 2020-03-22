@@ -1,7 +1,7 @@
 # faiz-crm-live
 A practice of creating a management app using Django
 
-Language : Pyhton/Django
+Language : Pyhton/Django <br>
 Database : Postgresql
 storages : AWS(RDS, S3 Bucket)
 server : Heroku
