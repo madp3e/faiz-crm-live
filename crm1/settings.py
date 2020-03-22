@@ -193,3 +193,8 @@ STATICFILES_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 #heroku does not run staticfiles for us
     # add STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
     # add whitenoise middleware
+
+# To make sure collecstatic work with AWS run following command
+    # heroku config:set AWS_ACCESS_KEY_ID="ご自身のアクセスキーIDを記入"
+    # heroku config:set AWS_SECRET_ACCESS_KEY="ご自身のシークレットアクセスキーを記入"
+    # heroku config:set AWS_STORAGE_BUCKET_NAME="ご自身のバケット名を記入"
